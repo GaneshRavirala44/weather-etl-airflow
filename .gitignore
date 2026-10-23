@@ -1,0 +1,54 @@
+.git
+.env
+.DS_Store
+airflow_settings.yaml
+__pycache__/
+astro
+.venv
+.astro/standalone/
+.astro/worktrees/
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+.astro/*.local.yml
+.astro/*.local.yaml
+
+**/.astro/dbt_metadata.json
+**/.astro/manifest.slim.json
+
+
+# Git
+.git
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+airflow_settings.yaml
+
+# Python
+__pycache__/
+.venv/
+*.py[cod]
+
+# Astro local files
+astro
+.astro/standalone/
+.astro/worktrees/
+.astro/*.local.yml
+.astro/*.local.yaml
+**/.astro/dbt_metadata.json
+**/.astro/manifest.slim.json
+
+# Airflow runtime files
+logs/
+*.log
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+airflow.db-*
+
+# OS files
+.DS_Store
